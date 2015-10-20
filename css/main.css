@@ -1,0 +1,183 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: url(../img/background.jpg) center center no-repeat fixed;
+	background-size: cover;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+}
+
+h1{
+	font-family: teko, sans-serif;
+	font-size: 120px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+}
+
+header nav ul {
+	display: none;
+}
+
+.clearfix:before, .clearfix:after{
+	content:"";
+	display: table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.logo { 
+	float: left;
+	width: 70px;
+	height: auto;
+}
+
+.logo img {
+	width:100%
+	height: auto%;
+}
+
+header nav {
+	float: right;
+}
+
+nav i {
+	width: 70px;
+	height: 70px;
+	background-color: #000;
+	color: #dfdfdf;
+	text-align: center;
+	padding-top: 20px;
+}
+
+main {
+	width: 70%;
+	margin: 190px 0px;
+}
+
+
+b.lead{
+	color: #d9d8d9;
+	font-weight: 300;
+	font-size: 26px;
+	line-height: 30px;
+	display: block;
+	padding: 10px 0px 25px 0px;
+}
+
+section {
+	max-width: 500px;
+}
+
+p {
+	color: #d9d8d9;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+section p {
+	margin-bottom: 37px;
+}
+
+h3 {
+	font-family: teko, sans-serif;
+	color: #dfdfdf;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin: 60px 0 30px 0;
+
+}
+
+input {
+	border: #e5e5e5 1px solid;
+	color: #dfdfdf;
+	height: 50px;
+	width: 350px;
+	padding: 16px;
+	float: left;
+	font-family: "Titillium Web", sans-serif;
+	font-size: 16px;
+}
+
+button {
+	width: 150px;
+	height:50px;
+	border: none;
+	background-color: #f63c3c;
+	color: #dfdfdf;
+	font-size: 20px;
+	font-family: teko, sans-serif;
+	font-weight: 300px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+
+aside {
+	width: 350px;
+}
+
+aside h3 {
+	margin: 30px 0 15px 0;
+}
+
+aside h3, article, time {
+	margin-left: 48px;
+}
+
+.fa {
+	float: left;
+	color: #dfdfdf;
+	font-size: 30px;
+}
+
+article {
+	font-size: 16px;
+	color: #dfdfdf;
+	font-weight: 300px;
+	margin: 16px 0 21px 48px;
+	line-height: 20px;
+}	
+
+time {
+	color: #959595;
+	font-family: teko, sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+footer {
+	max-width: 1170px;
+	margin: 148px auto 0 auto;
+	color: #898889;
+}
+
+footer p {
+	float: left;
+	font-size: 13px;
+}
+footer a {
+	color:#dfdfdf;
+}
+
+footer ul {
+	float: right;
+}
+
+footer li {
+	display: inline;
+	color: #898889;
+	padding: 10px;
+	font-size: 13px;
+}
+
